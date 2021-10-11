@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 303b568da481fd342823b0b530be2423, type: 3}
+  m_Name: HunterCursors
+  m_EditorClassIdentifier: 
+  config:
+    sheet:
+      texture: {fileID: 2800000, guid: 94549d2850ec8cb49a888ce970d1897c, type: 3}
+      tileSize: {x: 16, y: 16}
+      tileSpacing: {x: 2, y: 2}
+    tiles:
+    - name: Default
+      position: {x: 2, y: 0}
+      state: 0
+      hasDownTile: 0
+      downPosition: {x: 0, y: 0}
+    - name: Interact
+      position: {x: 0, y: 7}
+      state: 1
+      hasDownTile: 0
+      downPosition: {x: 0, y: 0}
+    - name: Interact Varient 1
+      position: {x: 10, y: 7}
+      state: 2
+      hasDownTile: 1
+      downPosition: {x: 11, y: 7}
+    - name: Interact Varient 2
+      position: {x: 0, y: 6}
+      state: 3
+      hasDownTile: 0
+      downPosition: {x: 0, y: 0}

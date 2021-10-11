@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d50e3f292fb47da80ed9d248d1595cf, type: 3}
+  m_Name: HuntScene
+  m_EditorClassIdentifier: 
+  config:
+    playerActionCount: 1
+    playerPriority: 1
+    playerRotationSpeed: 200
+    daemonActionCount: 2
+    daemonPriority: 0
+    daemonMoveDuration: 1
+    playerPrefab: {fileID: 7373400796826659382, guid: 1fc52a29a4680e042b1fceee5b0d63af, type: 3}
+    daemonPrefab: {fileID: 7747859358437023244, guid: b747269b19ee1494a914c62a60e925d5, type: 3}
+  grid: {fileID: 11400000, guid: b56c695a46c45754394b62241e06166d, type: 2}
+  actionControl: {fileID: 11400000, guid: 192f74b0a2010de45a44ed278cd74d88, type: 2}
+  indication: {fileID: 11400000, guid: 2ea9839fa48cc744499d54e853f79051, type: 2}
